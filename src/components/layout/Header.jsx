@@ -19,7 +19,6 @@ const Header = () => {
                     <strong>HORIZON</strong> FREE
                 </Link>
             </Heading>
-
             <Gnb />
         </Box>
     )

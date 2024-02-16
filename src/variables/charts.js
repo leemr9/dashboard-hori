@@ -97,8 +97,8 @@ export const barChartDataDailyTraffic = [
     },
     plotOptions: {
       bar: {
-        borderRadius: 10,
-        columnWidth: "40px",
+        borderRadius: 8,
+        columnWidth: "25px",
       },
     },
   };

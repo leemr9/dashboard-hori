@@ -1,3 +1,6 @@
+import { faGripVertical } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export const tableDataCheck = [
     {
         checked: false,
@@ -35,3 +38,34 @@ export const tableDataCheck = [
         date: '24 Oct 2022',
     },
 ];
+
+export const tableComplexData = [
+    {
+        id: 1,
+        name: 'Horizon UI PRO',
+        status: 'Approved',
+        date: '18 Apr 2022',
+        progress: '75.5%',
+    },
+    {
+        id: 2,
+        name: 'Horizon UI Free',
+        status: 'Disable',
+        date: '18 Apr 2022',
+        progress: '25.5%',
+    },
+    {
+        id: 3,
+        name: 'Marketplace',
+        status: 'Error',
+        date: '20 May 2021',
+        progress: '90%',
+    },
+    {
+        id: 4,
+        name: 'Weekly Updates',
+        status: 'Approved',
+        date: '12 Jul 2021',
+        progress: '50.5%',
+    },
+]

@@ -7,9 +7,13 @@ import { lineChartDataTotalSpent, lineChartOptionsTotalSpent, } from '../../../v
 const WeeklyRevenue = () => {
     return (
         <Flex p={'20px'} flexDir={'column'} bg={'white'} borderRadius={'20px'}>
-            <Flex justifyContent={'space-between'}>
+            <Flex
+                justifyContent={'space-between'}
+                alignItems={'center'} 
+                padding={'10px 15px'}
+            >
                 <Box
-                    fontSize={'1.25rem'}
+                    fontSize={'20px'}
                     fontWeight={700}
                     lineHeight={'100%'}
                     color={'#1B2559'}
@@ -30,7 +34,7 @@ const WeeklyRevenue = () => {
                 </Box>
             </Flex>
             <Card display={'flex'} flexDir={'row'} justifyContent={'space-between'} p={0}>
-                <CardHeader p={0}>
+                {/* <CardHeader p={0}>
                     <Stat flexDirection={'column'} margin={'28px 20px 0 0'}>
                         <StatLabel fontSize={'34px'} fontWeight={700} lineHeight={'100%'} color={'#1B2559;'}>
                             $37.5K
@@ -49,7 +53,7 @@ const WeeklyRevenue = () => {
                                 On track
                         </StatLabel>
                     </Stat>
-                </CardHeader>
+                </CardHeader> */}
                 <CardBody p={0} minH={'260px'}>
                     <LineChart
                         chartData={lineChartDataTotalSpent}

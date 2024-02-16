@@ -33,6 +33,7 @@ const Layout = () => {
                     backdropFilter={'blur(10px)'}
                     borderRadius={'0.75rem'}
                     transition={'all 0.2s'}
+                    zIndex={1000}
                 >
                     <Box>
                         <History />

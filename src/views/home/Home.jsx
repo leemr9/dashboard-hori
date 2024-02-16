@@ -12,10 +12,14 @@ import { faChartSimple, faDollarSign, faFlagUsa, faListCheck, faSheetPlastic } f
 import TotalSpent from '../default/components/TotalSpent'
 import WeeklyRevenue from '../default/components/WeeklyRevenue'
 import CheckTable from '../default/components/CheckTable'
+import DailyTraffic from '../default/components/DailyTraffic'
+import PieCard from '../default/components/PieCard'
+import ComplexTable from '../default/components/ComplexTable'
+import Tasks from '../default/components/Tasks'
 
 const Home = () => {
     return (
-        <VStack>
+        <VStack gap={'20px'}>
             <History />
             <SimpleGrid columns={{ base: 1, md: 2, lg: 3, xl: 6 }} spacing='40px' w={'100%'}>
                 <MiniStatistics
@@ -47,17 +51,17 @@ const Home = () => {
                 <TotalSpent />
                 <WeeklyRevenue />
             </SimpleGrid>
-            <SimpleGrid columns={{ base: 1, md: 2 }} spacing="20px" w={'100%'}>
+            <SimpleGrid columns={{ base: 1, md: 1 }} spacing="20px" w={'100%'}>
                 <CheckTable />
                 <SimpleGrid columns={{ base: 1, md: 2 }} spacing="20px" w={'100%'}>
-                    <Card></Card>
-                    <Card></Card>
+                    <DailyTraffic />
+                    <PieCard />
                 </SimpleGrid>
             </SimpleGrid>
-            <SimpleGrid columns={{ base: 1, md: 2 }} spacing="20px" w={'100%'}>
-                <Box bg="tomato" height="80px"></Box>
+            <SimpleGrid columns={{ base: 1, md: 1 }} spacing="20px" w={'100%'}>
+                <ComplexTable />
                 <SimpleGrid columns={{ base: 1, md: 2 }} spacing="20px" w={'100%'}>
-                    <Box bg="tomato" height="80px"></Box>
+                    <Tasks />
                     <Box bg="tomato" height="80px"></Box>
                 </SimpleGrid>
             </SimpleGrid>
