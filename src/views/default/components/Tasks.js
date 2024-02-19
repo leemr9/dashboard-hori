@@ -1,36 +1,9 @@
-import { Box, Card, CardHeader, Flex, List, ListItem, Text } from "@chakra-ui/react"
+import { Box, Card, CardHeader, Checkbox, Flex, List, ListItem, Text } from "@chakra-ui/react"
 import { faEllipsis, faGripVertical, faSquareCheck } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import React from "react"
+import React, { useState } from "react"
 
 const Tasks = () => {
-    const dataTasks = [
-        {
-            checked: true,
-            name: 'Landing Page Design',
-            icon: <FontAwesomeIcon icon={faGripVertical} />,
-        },
-        {
-            checked: false,
-            name: 'Dashboard Builder',
-            icon: <FontAwesomeIcon icon={faGripVertical} />,
-        },
-        {
-            checked: false,
-            name: 'Mobile App Design',
-            icon: <FontAwesomeIcon icon={faGripVertical} />,
-        },
-        {
-            checked: true,
-            name: 'Illustrations',
-            icon: <FontAwesomeIcon icon={faGripVertical} />,
-        },
-        {
-            checked: false,
-            name: 'Promotional LP',
-            icon: <FontAwesomeIcon icon={faGripVertical} />,
-        },
-    ];
 
     return (
         <Card>
@@ -39,10 +12,10 @@ const Tasks = () => {
                     justifyContent={'space-between'}
                     alignItems={'center'} 
                     padding={'0'}
-                    mb={'30px'}
+                    mb={'20px'}
                 >
                     <Flex
-                        fontSize={'20px'}
+                        fontSize={'18px'}
                         fontWeight={700}
                         lineHeight={'100%'}
                         color={'#1B2559'}
@@ -64,14 +37,43 @@ const Tasks = () => {
                     </Box>
                 </Flex>
             </CardHeader>
-            {dataTasks.map((item, index) => {
-                <ListItem key={index}>
+            <Box>
+                <Flex justifyContent={'space-between'} mb={'20px'}>
                     <Flex>
-                        {item.checked} {item.name}
+                        <Checkbox mr={'16px'} />
+                        <Text fontWeight={700}>Landing Page Design</Text>
                     </Flex>
-                    {item.icon}
-                </ListItem>
-            })}
+                    <FontAwesomeIcon icon={faGripVertical} />
+                </Flex>
+                <Flex justifyContent={'space-between'} mb={'20px'}>
+                    <Flex>
+                        <Checkbox mr={'16px'} />
+                        <Text fontWeight={700}>Dashboard Builder</Text>
+                    </Flex>
+                    <FontAwesomeIcon icon={faGripVertical} />
+                </Flex>
+                <Flex justifyContent={'space-between'} mb={'20px'}>
+                    <Flex>
+                        <Checkbox mr={'16px'} />
+                        <Text fontWeight={700}>Mobile App Design</Text>
+                    </Flex>
+                    <FontAwesomeIcon icon={faGripVertical} />
+                </Flex>
+                <Flex justifyContent={'space-between'} mb={'20px'}>
+                    <Flex>
+                        <Checkbox mr={'16px'} />
+                        <Text fontWeight={700}>Illustrations</Text>
+                    </Flex>
+                    <FontAwesomeIcon icon={faGripVertical} />
+                </Flex>
+                <Flex justifyContent={'space-between'}>
+                    <Flex>
+                        <Checkbox mr={'16px'} />
+                        <Text fontWeight={700}>Promotional LP</Text>
+                    </Flex>
+                    <FontAwesomeIcon icon={faGripVertical} />
+                </Flex>
+            </Box>
         </Card>
     )
 }

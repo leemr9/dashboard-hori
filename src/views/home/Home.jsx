@@ -16,6 +16,7 @@ import DailyTraffic from '../default/components/DailyTraffic'
 import PieCard from '../default/components/PieCard'
 import ComplexTable from '../default/components/ComplexTable'
 import Tasks from '../default/components/Tasks'
+import MiniCalendar from '../../components/calendar/MiniCalendar'
 
 const Home = () => {
     return (
@@ -62,12 +63,9 @@ const Home = () => {
                 <ComplexTable />
                 <SimpleGrid columns={{ base: 1, md: 2 }} spacing="20px" w={'100%'}>
                     <Tasks />
-                    <Box bg="tomato" height="80px"></Box>
+                    <MiniCalendar />
                 </SimpleGrid>
             </SimpleGrid>
-            {/* <MainSlide />
-            <Section isLightBackground={true}>
-            </Section> */}
         </VStack>
     )
 }
