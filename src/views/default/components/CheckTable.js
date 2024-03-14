@@ -2,7 +2,7 @@ import React from 'react'
 import { useTable, useSortBy } from 'react-table'
 import { Box, Card, CardHeader, Checkbox, Flex, Table, TableContainer, Tbody, Td, Text, Th, Thead, Tr } from '@chakra-ui/react'
 import { tableDataCheck } from '../../../variables/tables'
-import { FaAngleDown, FaAngleUp } from 'react-icons/fa6'
+// import { FaAngleDown, FaAngleUp } from 'react-icons/fa6'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEllipsis } from '@fortawesome/free-solid-svg-icons'
 

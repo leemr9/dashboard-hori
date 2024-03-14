@@ -1,8 +1,8 @@
 import { Box, Card, Divider, Flex, Select, Text } from "@chakra-ui/react"
 import PieChart from "../../../components/charts/PieChart"
 import { pieChartData, pieChartOptions } from "../../../variables/charts"
-import MiniStatistics from "../../../components/card/MiniStatistics"
-import { border, borderRadius } from "polished"
+// import MiniStatistics from "../../../components/card/MiniStatistics"
+// import { border, borderRadius } from "polished"
 
 const PieCard = () => {
     return (

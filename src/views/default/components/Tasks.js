@@ -1,7 +1,7 @@
-import { Box, Card, CardHeader, Checkbox, Flex, List, ListItem, Text } from "@chakra-ui/react"
+import { Box, Card, CardHeader, Checkbox, Flex, Text } from "@chakra-ui/react"
 import { faEllipsis, faGripVertical, faSquareCheck } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import React, { useState } from "react"
+// import React, { useState } from "react"
 
 const Tasks = () => {
 

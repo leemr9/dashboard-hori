@@ -7,8 +7,9 @@ import DynamicTitle from './DynamicTitle'
 import History from '../common/History'
 
 const Layout = () => {
+
     return (
-        <Box display={'flex'} flexDir={'column'} minH={'100vh'} bg={'bgDefault'}>
+        <Box display={'flex'} flexDir={'column'} minH={'100vh'}>
             <Header />
             <Box
                 as="main"

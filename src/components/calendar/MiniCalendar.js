@@ -1,4 +1,4 @@
-import { Card, CardHeader, Icon, Text } from "@chakra-ui/react"
+import { Card, Icon, Text } from "@chakra-ui/react"
 import Calendar from "react-calendar"
 import '../../assets/css/MiniCalendar.css';
 import { useState } from "react";

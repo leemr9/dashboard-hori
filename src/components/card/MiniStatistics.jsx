@@ -1,7 +1,7 @@
-import { Box, Card, Flex, Stat, StatLabel, StatNumber, Text } from "@chakra-ui/react"
-import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import IconBox from "../icons/IconBox";
+import { Card, Flex, Stat, StatLabel, StatNumber, Text } from "@chakra-ui/react"
+// import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import IconBox from "../icons/IconBox";
 
 const MiniStatistics = (props) => {
     const { startContent, name, value, endContent, growth, value2 } = props

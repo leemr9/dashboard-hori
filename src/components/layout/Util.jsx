@@ -8,7 +8,6 @@ import {
     InputGroup,
     InputLeftElement,
     Spacer,
-    Text,
 } from '@chakra-ui/react'
 import { FiSearch } from 'react-icons/fi'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

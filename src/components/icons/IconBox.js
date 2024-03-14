@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react"
-import { faChartSimple } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import { faChartSimple } from "@fortawesome/free-solid-svg-icons"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const IconBox = (props) => {
     const { icon, ...rest } = props

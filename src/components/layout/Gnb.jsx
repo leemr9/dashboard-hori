@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import { Link as ReactRouterLink, useLocation } from 'react-router-dom'
 import { UnorderedList, ListItem, Link } from '@chakra-ui/react'
 import { FaCartShopping } from 'react-icons/fa6'
@@ -18,7 +18,7 @@ const Gnb = () => {
 
     const location = useLocation()
 
-    const [isSelected, setIsSelected] = useState(0)
+    // const [isSelected, setIsSelected] = useState(0)
 
     return (
         <UnorderedList display={{ base: 'none', xl: 'block' }} py={6} gap={'40px'} fontSize={'16px'}>

@@ -1,5 +1,5 @@
-import { Box, Card, CardBody, CardHeader, Flex, Stat, StatArrow, StatHelpText, StatLabel, StatNumber, Text } from "@chakra-ui/react"
-import { faChartSimple, faCircleCheck } from "@fortawesome/free-solid-svg-icons"
+import { Box, Card, CardBody, Flex, Text } from "@chakra-ui/react"
+import { faChartSimple } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import LineChart from "../../../components/charts/LineChart"
 import { lineChartDataTotalSpent, lineChartOptionsTotalSpent, } from '../../../variables/charts'
