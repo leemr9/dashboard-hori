@@ -5,6 +5,7 @@ import theme from './theme/theme'
 // import './assets/scss/style.scss' scss 사용시 주석 해제
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { Router } from 'react-router-dom'
 
 gsap.registerPlugin(ScrollTrigger)
 
